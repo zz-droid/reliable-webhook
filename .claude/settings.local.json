@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(F:/Anaconda3/envs/webhook/python.exe -m pip install -r \"D:\\\\items\\\\reliable-webhook-A\\\\requirements.txt\")",
+      "Bash(F:/Anaconda3/envs/webhook/python.exe -m pytest -q)",
+      "Bash(F:/Anaconda3/Scripts/conda.exe create *)",
+      "Bash(env)",
+      "Read(//c/Users/zhang'yi/**)",
+      "Read(//c/Users/zhang'yi/pip/**)",
+      "Read(//c/Users/zhang'yi/AppData/Roaming/pip/**)",
+      "Bash(F:/Anaconda3/python.exe -m pip config list)",
+      "Bash(no_proxy=\"*\" NO_PROXY=\"*\" F:/Anaconda3/Scripts/conda.exe create -n webhook python=3.11 -y)",
+      "Bash(no_proxy=\"*\" NO_PROXY=\"*\" F:/Anaconda3/Scripts/conda.exe create -n webhook python=3.11 -y --override-channels -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/)",
+      "Bash(F:/Anaconda3/envs/webhook/python.exe --version)",
+      "Bash(F:/Anaconda3/envs/webhook/python.exe -c ' *)",
+      "Bash(F:/Anaconda3/envs/webhook/python.exe -m pytest -q -p no:randomly)",
+      "Bash(F:/Anaconda3/envs/webhook/python.exe -c \"from app.main import app; print\\('uvicorn app object OK:', app.title\\)\")",
+      "Bash(timeout 3 F:/Anaconda3/envs/webhook/python.exe -m app.worker)",
+      "Bash(rm -f webhook.db webhook.db-wal webhook.db-shm)",
+      "Bash(wait)"
+    ]
+  }
+}
