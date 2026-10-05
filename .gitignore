@@ -3,9 +3,18 @@ venv/
 __pycache__/
 .pytest_cache/
 *.pyc
+
+# SQLite database files and WAL/SHM sidecars
 *.db
+*.db-wal
+*.db-shm
 *.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
 *.sqlite3
+
 .env
 .idea/
 .vscode/
+.claude/
